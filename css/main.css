@@ -467,15 +467,15 @@ header nav>.menu>li>a{
     background-size:150%;
   }
   .contents03 .imgBox .box:first-child{
-    background-image: url(./images/talk01.jpg);
+    background-image: url(../images/talk01.jpg);
 
   }
   .contents03 .imgBox .box:nth-child(2){
-    background-image: url(./images/talk02.jpg);
+    background-image: url(../images/talk02.jpg);
 
   }
   .contents03 .imgBox .box:last-child{
-    background-image: url(./images/talk03.jpg);
+    background-image: url(../images/talk03.jpg);
 
   }
   .contents03 .imgBox .box a{
