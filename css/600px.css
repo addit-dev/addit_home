@@ -1,0 +1,272 @@
+@media screen and (max-width:600px) {
+      header {
+        padding: 0;
+        height: 600px;
+        margin-bottom: 100px;
+    }
+    header .inner {
+      width: 100%;
+      padding-top: 0;
+  }
+    header .logo{
+      position: absolute;
+      left: 20px;
+      top: 30px;
+  }
+    header>.mainText{
+      /* max-width: 400px; */
+      left: 1.6%;
+      top: 20%;
+      padding: 10px 20px;
+  }
+    header>.mainText>h3{
+        font-size: 18px;
+        line-height: 40px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    header>.mainText .textImg{
+      margin-bottom: 20px;
+    }
+    header>.mainText>h4{
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+    header>.mainText>a{
+        font-size: 16px;
+        padding:20px 0 20px 5px;
+    }
+    header .logo{
+        width: 120px;
+    }
+    header .hamburger-button {
+      display: block;
+      position: fixed;
+    }
+    header nav>.menu{
+      flex-direction: column;
+      position: fixed;
+      background: rgba(0, 0, 0, .8);
+      top: -2.1%;
+      left: 0;
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+      display:  flex;
+      justify-content: center;
+      align-items: center;
+      transition: .5s;
+      opacity: 0;
+      z-index: 99;
+  }
+  header nav>.menu>li{
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+header nav>.menu>li>a{
+  font-size: 24px;
+  font-weight: 500;
+}
+  header nav>.menu.overflow {
+    height: 100%;
+    opacity: 1;
+} 
+    .contents01 {
+        flex-wrap: wrap;
+        margin-bottom: 130px;
+    }
+    .contents01 .textBox {
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .contents01 .textBox h2 {
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 5px;
+    }
+    .contents01 .textBox p {
+        font-size: 14px;
+    }
+    .contents01 .button_v1 {
+        width: 110px;
+        padding: 10px 0;
+        font-size: 13px;
+        font-family: 'S-CoreDream-3Light';
+        transition: .5s;
+        letter-spacing: 0;
+    }
+    .contents01 .container {
+        width: 100%;
+    }
+    .contents01 .swiper {
+        width: 100%;
+    }
+
+    .contents01 .mySwiper {
+        width: 60%;
+        padding: 10px 0;
+        position: absolute;
+        left: 40%;
+        top: 92%;
+      }
+    
+    .contents02 {
+        flex-direction: column-reverse;
+        margin-bottom: 120px;
+    }
+    .contents02 .textBox {
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .contents02 .button_v2 {
+        display: block;
+        margin-left: 0;
+        width: 110px;
+        padding: 10px 0;
+        font-size: 13px;
+        font-family: 'S-CoreDream-3Light';
+        transition: .5s;
+        letter-spacing: 0;
+    }
+    .contents02 .textBox h2 {
+        margin-bottom: 2%;
+        padding-top: 0;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .contents02 .textBox p {
+        font-size: 14px;
+        text-align: left;
+        letter-spacing: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .swPrev {
+        width: 45px;
+        height: 45px;
+        top: 89%;
+        left: 75%;
+      }
+      .swNext {
+        width: 45px;
+        height: 45px;
+        top: 89%;
+        left: 88%;
+      }
+      .swiper-container .fa-solid {
+        font-size: 15px;
+      }
+      .swiper-pagination-current {
+        font-size: 30px;
+        font-family: 'S-CoreDream-3Light';
+        color: #fff;
+        font-weight: 700;
+      }
+      .swiper-pagination-fraction {
+        left: -42%;
+        bottom: 10px;
+        color: #fff;
+      }
+      .contents03 {
+        margin-bottom: 0;
+      }
+      .contents03 h2 {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'S-CoreDream-3Light';
+        letter-spacing: 0;
+      }
+      .contents03 .imgBox{
+        flex-direction: column;
+      }
+      .contents03 .imgBox .box{
+        width: 90%;
+        height: 400px;
+        margin: auto;
+        margin-bottom: 50px;
+      }
+      .footer .footerLogo {
+        flex-direction: column;
+        text-align: center;
+      }
+      .footer .footerLogo .footerMenu a{
+        margin-left: 0;
+        margin: 10px;
+      }
+      .footer .footerLogo .logo{
+        margin-bottom: 20px;
+      }
+
+      /* 구독페이지 */
+      #header {
+        background-position: center;
+      }
+      .inner {
+        width: 100%;
+      }
+      .inner>.gudok {
+        width: 90%;
+        background-image: url(./images/joyful-young-brunette-with-fluffy-hair-red-lips-trendy-dress-and-black-jacket-belt-on-waist-standing-in-profile-at-sunny-street-and-smiling-against-light-building-wall.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .inner>.gudok>.from {
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+    }
+    .inner>.gudok>.bg {
+      display: none;
+    }
+    .inner>.gudok>.from>h1 {
+      font-size: 20px;
+      color: #fff;
+      background-color: rgba(51, 51, 51, 0.404);
+      padding: 10px 0;
+    }
+    .inner>.gudok>.from>p {
+      margin-bottom: 20px;
+      color: #fff;
+      background-color: rgba(51, 51, 51, 0.404);
+      padding: 10px 10px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    .inner>.gudok>.from>input {
+      margin-bottom: 10px;
+
+    }
+    .inner>.gudok>.from>.newsLetter {
+      overflow: scroll;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+    .inner>.gudok>.from>.newsLetter>.text>.title {
+      font-size: 14px;
+    }
+  .inner>.gudok>.from>label {
+    margin-bottom: 15px;
+    }
+    .inner>.gudok>.from>label {
+      color: #fff;
+  }
+  .inner>.gudok>.from>button {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.308);
+}
+#section {
+  margin-bottom: 50px;
+}
+
+}

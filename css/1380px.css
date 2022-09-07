@@ -1,0 +1,40 @@
+@media screen and (max-width:1390px){
+    header {
+        width: 100%;
+        padding: 0 20px;       
+    }
+    header .inner {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .contents01 {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .contents01 .mySwiper2 {
+        height: 400px;
+    }
+    .contents02 {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 250px;
+        position: relative;
+    }
+    .contents03 {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .contents03 .imgBox .box{
+        max-width: 373px;
+    }
+    footer {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        padding: 20px;
+    }
+    
+}
